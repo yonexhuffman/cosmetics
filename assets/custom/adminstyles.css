@@ -1,0 +1,167 @@
+.page-sidebar-closed.page-sidebar-fixed .page-sidebar:hover .sidebar-toggler, .page-sidebar .sidebar-toggler{
+    margin-bottom: 15px;
+}
+.page-container-bg-solid .page-bar{
+    margin: -25px -20px 20px -20px;
+}
+.page-header.navbar .top-menu .navbar-nav > li.dropdown-user > .dropdown-menu{
+    width: 230px;
+}
+.table>caption+thead>tr:first-child>td, .table>caption+thead>tr:first-child>th, .table>colgroup+thead>tr:first-child>td, .table>colgroup+thead>tr:first-child>th, .table>thead:first-child>tr:first-child>td, .table>thead:first-child>tr:first-child>th {
+    text-align : center;        
+}
+table.table-bordered tbody th, table.table-bordered tbody td , table.table tbody td{
+    text-align : center;
+    vertical-align: middle;
+}
+table.table tbody .btn.btn-danger {
+    width: 33px;
+}
+table.table thead tr.filter .btn.red {
+    width: 32px;
+}
+.f-left{
+    float: left;
+}
+.f-right{
+    float: right;
+}
+.clear{
+    clear: both;
+}
+.scroll-to-top > i{
+    font-size: 40px;
+}
+
+.percent_label{
+    position: absolute;
+    left: 50%;
+    color: #000;
+}
+#ingredient_table .progress , #product_table .progress{
+    margin-bottom: 0px !important;
+    position: relative;
+}
+#scrape_product{
+    margin-bottom: 20px;
+}
+
+.portlet.light .form .form-body{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+input[name=pro_rate]{
+    display: none;
+}
+#pro_ingredients , #pro_efficacy_ingredients{
+    width: 100%;
+    height: 200px;
+}
+.product_image{
+    width: 80%;
+    border: 1px solid #ddd; 
+    margin-bottom: 10px;
+}
+#preview_image{
+    margin-top: 10px;
+}
+
+.form-horizontal .md-radio-inline{
+    margin-top: 8px;
+}
+
+.product_info_view p{
+    font-size: 14px;
+    font-weight: 800;
+}
+.product_info_view p.label_cate{
+    width: 30%;
+    display: inline-block;
+}
+.product_info_view .content{
+    width: 67%;
+    font-size: 15px;
+    display: inline-block;
+    padding: 0px 10px;
+}
+
+.xxs-info-box{
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 10px 0px;
+    border-radius: 16px !important;
+    -webkit-border-radius: 16px !important;
+    -moz-border-radius: 16px !important;
+}
+.xxs-info-title-img{
+    float: left;
+    width: 56px;
+    height: 56px;
+    border-radius: 28px;
+    overflow: hidden;
+    position: relative;
+}
+.xxs-info-title-img img{
+    width: 100%;
+    margin: 0 auto;
+    position: absolute;
+}
+.xxs-info-title-main{
+    float: left;
+    margin-top: 4px;
+    margin-left: 20px;
+    width: 70%;
+}
+.xxs-info-title-main .p1{
+    padding: 0;
+    margin: 0;
+    font-size: 18px;
+    color: #8d63ae;
+    line-height: 30px;
+}
+.xxs-info-title-main .p2{
+    padding: 0;
+    margin: 0;
+    font-size: 14px;
+    color: #616161;
+}
+.xxs-info-title-main .p2 ul{
+    list-style: none;
+    padding: 0;
+}
+.xxs-info-title-main .p2 ul li{
+    float: left;
+    border: 1px solid #8d63ae;
+    color: #8d63ae;
+    font-size: 12px;
+    padding: 0px 4px;
+    border-radius: 2px;
+    margin-right: 4px;
+}
+.xxs-info-content{
+    margin: 10px 0;
+    text-align: justify;
+    text-indent: 10px;
+}
+.blog-comment{
+    margin-top: 10px;
+    margin-left:8%;
+    background:#fafafa;
+    padding:10px;
+}
+.blog-comment .xxs-info-content p img , .xxs-info-content p img{
+    width: 20%;
+    margin-right: 10px;
+}
+span.security_risk_label{
+    border-radius: 15px !important;
+    padding: 5px 10px;
+}
+span.security_risk_label.label-primary{
+    background: #3eac54;
+}
+.page-header.navbar .page-logo .logo-default{
+    margin: 5px 0 0 0px;
+    height: 36px;
+}

@@ -1,0 +1,41 @@
+[17-Nov-2018 09:20:49] PHP Parse error:  syntax error, unexpected T_CONST in /data/home/byu5681420001/htdocs/www/system/core/CodeIgniter.php on line 58
+[17-Nov-2018 09:22:17] PHP Parse error:  syntax error, unexpected T_CONST in /data/home/byu5681420001/htdocs/www/system/core/CodeIgniter.php on line 58
+[17-Nov-2018 09:22:18] PHP Parse error:  syntax error, unexpected T_CONST in /data/home/byu5681420001/htdocs/www/system/core/CodeIgniter.php on line 58
+[17-Nov-2018 09:22:19] PHP Parse error:  syntax error, unexpected T_CONST in /data/home/byu5681420001/htdocs/www/system/core/CodeIgniter.php on line 58
+[17-Nov-2018 09:23:57] PHP Parse error:  syntax error, unexpected T_CONST in /data/home/byu5681420001/htdocs/www/system/core/CodeIgniter.php on line 58
+[17-Nov-2018 09:23:59] PHP Parse error:  syntax error, unexpected T_CONST in /data/home/byu5681420001/htdocs/www/system/core/CodeIgniter.php on line 58
+[17-Nov-2018 09:23:59] PHP Parse error:  syntax error, unexpected T_CONST in /data/home/byu5681420001/htdocs/www/system/core/CodeIgniter.php on line 58
+[17-Nov-2018 09:23:59] PHP Parse error:  syntax error, unexpected T_CONST in /data/home/byu5681420001/htdocs/www/system/core/CodeIgniter.php on line 58
+[17-Nov-2018 09:24:00] PHP Parse error:  syntax error, unexpected T_CONST in /data/home/byu5681420001/htdocs/www/system/core/CodeIgniter.php on line 58
+[17-Nov-2018 09:24:00] PHP Parse error:  syntax error, unexpected T_CONST in /data/home/byu5681420001/htdocs/www/system/core/CodeIgniter.php on line 58
+[17-Nov-2018 09:24:01] PHP Parse error:  syntax error, unexpected T_CONST in /data/home/byu5681420001/htdocs/www/system/core/CodeIgniter.php on line 58
+[17-Nov-2018 09:24:01] PHP Parse error:  syntax error, unexpected T_CONST in /data/home/byu5681420001/htdocs/www/system/core/CodeIgniter.php on line 58
+[17-Nov-2018 09:24:01] PHP Parse error:  syntax error, unexpected T_CONST in /data/home/byu5681420001/htdocs/www/system/core/CodeIgniter.php on line 58
+[17-Nov-2018 09:24:01] PHP Parse error:  syntax error, unexpected T_CONST in /data/home/byu5681420001/htdocs/www/system/core/CodeIgniter.php on line 58
+[17-Nov-2018 09:24:02] PHP Parse error:  syntax error, unexpected T_CONST in /data/home/byu5681420001/htdocs/www/system/core/CodeIgniter.php on line 58
+[21-Nov-2018 17:47:32 Asia/Shanghai] PHP Warning:  Uncaught Exception: Session: Configured save path '' is not a directory, doesn't exist or cannot be created. in /data/home/byu5681420001/htdocs/www/system/libraries/Session/drivers/Session_files_driver.php:138
+Stack trace:
+#0 [internal function]: CI_Session_files_driver->open('', 'ci_session')
+#1 /data/home/byu5681420001/htdocs/www/system/libraries/Session/Session.php(143): session_start()
+#2 /data/home/byu5681420001/htdocs/www/system/core/Loader.php(1285): CI_Session->__construct()
+#3 /data/home/byu5681420001/htdocs/www/system/core/Loader.php(1178): CI_Loader->_ci_init_library('Session', 'CI_', NULL, 'session')
+#4 /data/home/byu5681420001/htdocs/www/system/core/Loader.php(1043): CI_Loader->_ci_load_stock_library('Session', 'Session/', NULL, NULL)
+#5 /data/home/byu5681420001/htdocs/www/system/core/Loader.php(1089): CI_Loader->_ci_load_library('Session', NULL, NULL)
+#6 /data/home/byu5681420001/htdocs/www/system/core/Loader.php(218): CI_Loader->_ci_load_library('Session', NULL, NULL)
+#7 /data/home/byu5681420001 in /data/home/byu5681420001/htdocs/www/system/libraries/Session/drivers/Session_files_driver.php on line 138
+[21-Nov-2018 17:47:32 Asia/Shanghai] PHP Fatal error:  session_start(): Failed to initialize storage module: user (path: ) in /data/home/byu5681420001/htdocs/www/system/libraries/Session/Session.php on line 143
+[21-Nov-2018 17:57:05 Asia/Shanghai] PHP Warning:  Uncaught Exception: Session: Configured save path '' is not a directory, doesn't exist or cannot be created. in /data/home/byu5681420001/htdocs/www/system/libraries/Session/drivers/Session_files_driver.php:138
+Stack trace:
+#0 [internal function]: CI_Session_files_driver->open('', 'ci_session')
+#1 /data/home/byu5681420001/htdocs/www/system/libraries/Session/Session.php(143): session_start()
+#2 /data/home/byu5681420001/htdocs/www/system/core/Loader.php(1285): CI_Session->__construct()
+#3 /data/home/byu5681420001/htdocs/www/system/core/Loader.php(1178): CI_Loader->_ci_init_library('Session', 'CI_', NULL, 'session')
+#4 /data/home/byu5681420001/htdocs/www/system/core/Loader.php(1043): CI_Loader->_ci_load_stock_library('Session', 'Session/', NULL, NULL)
+#5 /data/home/byu5681420001/htdocs/www/system/core/Loader.php(1089): CI_Loader->_ci_load_library('Session', NULL, NULL)
+#6 /data/home/byu5681420001/htdocs/www/system/core/Loader.php(218): CI_Loader->_ci_load_library('Session', NULL, NULL)
+#7 /data/home/byu5681420001 in /data/home/byu5681420001/htdocs/www/system/libraries/Session/drivers/Session_files_driver.php on line 138
+[21-Nov-2018 17:57:05 Asia/Shanghai] PHP Fatal error:  session_start(): Failed to initialize storage module: user (path: ) in /data/home/byu5681420001/htdocs/www/system/libraries/Session/Session.php on line 143
+[21-Nov-2018 19:03:49] PHP Parse error:  syntax error, unexpected T_CONST in /data/home/byu5681420001/htdocs/www/system/core/CodeIgniter.php on line 58
+[21-Nov-2018 19:10:54] PHP Parse error:  syntax error, unexpected T_STATIC in /data/home/byu5681420001/htdocs/www/system/database/drivers/mysqli/mysqli_result.php on line 115
+[21-Nov-2018 19:12:26] PHP Parse error:  syntax error, unexpected T_CONST in /data/home/byu5681420001/htdocs/www/system/core/CodeIgniter.php on line 58
+[07-Dec-2018 08:37:09 Asia/Shanghai] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /data/home/byu5681420001/htdocs/www/system/libraries/Session/drivers/Session_files_driver.php on line 420
